@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    user-select: none;
+}
+
+.card {
+    --background: linear-gradient(to left, #6f2dbd 0%, #b8d0eb 100%);
+    width: 800px;
+    min-height: 700px;
+    height: 100%;
+    padding: 5px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #b298dc;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+}
+
+.cardInfo {
+    --color: #181818;
+    background: var(--color);
+    color: var(--color);
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    height: fit-content;
+    overflow: visible;
+    border-radius: .7rem;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    color: #b298dc;
+    letter-spacing: .1em;
+    font-size: 40px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.inputTasks {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
