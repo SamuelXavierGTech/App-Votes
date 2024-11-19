@@ -1,0 +1,21 @@
+.totalVotes {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.winner {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
